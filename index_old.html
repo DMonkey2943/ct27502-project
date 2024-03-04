@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <title>Morning Fruit</title>
+
+
+    <!-- Font-Icons -->
+    <script src="https://kit.fontawesome.com/30d0976aea.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <!-- <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="header-wrap-logo col-2 text-center">
+                    <img src="./images/logo.png" class="" alt="">
+                </div>
+                <ul class="nav-wrap col-5 d-flex justify-content-around fw-bold">
+                    <li class="nav-item line active d-flex align-items-center">
+                        <a href="" class="nav-item-a">TRANG CHỦ</a>
+                    </li>
+                    <li class="nav-item line d-flex align-items-center">
+                        <a href="" class="nav-item-a">GIỚI THIỆU</a>
+                    </li>
+                    <li class="nav-item line nav_more d-flex align-items-center">
+                        <a href="" class="nav-item-a">
+                            SẢN PHẨM
+                            <i class="fa-solid fa-chevron-down ps-1"></i>
+                            <div>
+                                <ul class="nav_more-product">
+                                    <li class="more-product-item">
+                                        <a class="more-product-item-a fw-bold" href="">Trái cây Việt Nam</a>
+                                    </li>
+                                    <li class="more-product-item">
+                                        <a class="more-product-item-a fw-bold" href="">Trái cây nhập khẩu</a>
+                                    </li>
+                                    <li class="more-product-item">
+                                        <a class="more-product-item-a fw-bold" href="">Trái cây sấy khô</a>
+                                    </li>
+                                    <li class="more-product-item">
+                                        <a class="more-product-item-a fw-bold" href="">Quà tặng trái cây</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item line d-flex align-items-center">
+                        <a href="" class="nav-item-a">LIÊN HỆ</a>
+                    </li>
+                </ul>
+                <div class="col-5 d-flex justify-content-around">
+                    <form action="" class="search_input d-flex align-items-center" role="search">
+                        <input type="search" class="form-control" placeholder="Tìm kiếm...">
+                        <button><i class="icon_search fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                    <div class="d-flex align-items-center">
+                        <i class="header_icon fa-solid fa-user"></i><br>
+                        <span class="ps-2">Tài khoản</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="header_icon fa-solid fa-cart-shopping"></i>
+                        <span class="ps-2">Giỏ hàng</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header> -->
+
+    <header class="mt-5">
+        <nav class="navbar navbar-expand-lg nav-wrap">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="#">
+                    <img src="./images/logo.png" class="" alt="" height="60px">
+                </a>
+                <!-- Toggler  -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item me-4 line active">
+                            <a class="nav-link fs-4" aria-current="page" href="#">TRANG CHỦ</a>
+                        </li>
+                        <li class="nav-item me-4 line">
+                            <a class="nav-link fs-4" href="#">GIỚI THIỆU</a>
+                        </li>
+                        <li class="nav-item me-4 nav_more line">
+                            <a class="nav-link fs-4" href="#">
+                                <span>SẢN PHẨM </span>
+                                <i class="fa-solid fa-chevron-down ps-1"></i>
+                                <!-- <div> -->
+                                    <ul class="nav_more-product">
+                                        <li class="more-product-item">
+                                            <a class="more-product-item-a fw-bold" href="">Trái cây nhập khẩu</a>
+                                        </li>
+                                        <li class="more-product-item">
+                                            <a class="more-product-item-a fw-bold" href="">Trái cây Việt Nam</a>
+                                        </li>
+                                        <li class="more-product-item">
+                                            <a class="more-product-item-a fw-bold" href="">Trái cây nhập khẩu</a>
+                                        </li>
+                                        <li class="more-product-item">
+                                            <a class="more-product-item-a fw-bold" href="">Quà tặng trái cây</a>
+                                        </li>
+                                    </ul>
+
+                                <!-- </div> -->
+                            </a>
+                        </li>
+                        <li class="nav-item me-4 line">
+                            <a class="nav-link fs-4" href="#">LIÊN HỆ</a>
+                        </li>
+                    </ul>
+                    <a href="" class="d-flex align-items-center me-4 pb-2">
+                        <i class="header_icon fa-solid fa-user"></i><br>
+                        <span class="ps-2">Tài khoản</span>
+                    </a>
+                    <a href="" class="d-flex align-items-center me-4 pb-2">
+                        <i class="header_icon fa-solid fa-cart-shopping"></i>
+                        <span class="ps-2">Giỏ hàng</span>
+                    </a>
+                    <form class="d-flex" role="search">
+                        <input class="form-control" type="search" placeholder="Tìm kiếm..." aria-label="Search">
+                        <button class="btn btn-search" type="submit"><i
+                                class="icon_search fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container my-4">
+        <section class="carousel_product">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/banner-1.jpg" class="d-block w-100 img-carousel" alt="...">
+                    </div>
+                    <div class="carousel-item " data-bs-interval="3000">
+                        <img src="./images/banner-2.jpg" class="d-block w-100 img-carousel" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/banner-3.jpg" class="d-block w-100 img-carousel" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/banner-4.jpg" class="d-block w-100 img-carousel" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/banner-5.jpg" class="d-block w-100 img-carousel" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="container-fluid category-hot">
+            <div class="row cat-name">
+                <h2 class="title">Trái cây Việt Nam</h2>
+            </div>
+            <div class="row hot-product-list">
+                <div class="col-2 card card-product">
+                    <a href="" class="product_a">
+                        <img src="./images/nhanLongHungYen.jpg" class="card-img-top" alt="...">
+                        <div class="card-title-wrap">
+                            <h6 class="card-title">Nhãn lồng Hưng Yên loại 1 đó nha mọi người ơi mua đi nha </h6>
+                        </div>
+                    </a>
+                    <p class="card-text price-product">155,000đ</p>
+                    <button class="btn-add_cart">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="col-2 card card-product">
+                    <a href="" class="product_a">
+                        <img src="./images/nhanLongHungYen.jpg" class="card-img-top" alt="...">
+                        <div class="card-title-wrap">
+                            <h6 class="card-title">Nhãn lồng Hưng Yên loại 1 đó nha </h6>
+                        </div>
+                    </a>
+                    <p class="card-text price-product">155,000đ</p>
+                    <button class="btn-add_cart">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="col-2 card card-product">
+                    <a href="" class="product_a">
+                        <img src="./images/nhanLongHungYen.jpg" class="card-img-top" alt="...">
+                        <div class="card-title-wrap">
+                            <h6 class="card-title">Nhãn lồng Hưng Yên </h6>
+                        </div>
+                    </a>
+                    <p class="card-text price-product">155,000đ</p>
+                    <button class="btn-add_cart">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="col-2 card card-product">
+                    <a href="" class="product_a">
+                        <img src="./images/manAnPhuoc.jpg" class="card-img-top" alt="...">
+                        <div class="card-title-wrap">
+                            <h6 class="card-title">Mận An Phước </h6>
+                        </div>
+                    </a>
+                    <p class="card-text price-product">75,000đ</p>
+                    <button class="btn-add_cart">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="col-2 card card-product">
+                    <a href="" class="product_a">
+                        <img src="./images/sauRieng.jpg" class="card-img-top" alt="...">
+                        <div class="card-title-wrap">
+                            <h6 class="card-title">Sầu riêng Lão Nông (cơm sầu)</h6>
+                        </div>
+                    </a>
+                    <p class="card-text price-product">580,000đ</p>
+                    <button class="btn-add_cart">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="col-2 card card-product">
+                    <a href="" class="product_a">
+                        <img src="./images/camSanh.jpg" class="card-img-top" alt="...">
+                        <div class="card-title-wrap">
+                            <h6 class="card-title">Cam sành hữu cơ Măng Đen (size nhỏ) </h6>
+                        </div>
+                    </a>
+                    <p class="card-text price-product">155,000đ</p>
+                    <button class="btn-add_cart">Thêm vào giỏ hàng</button>
+                </div>
+
+            </div>
+            <div class="text-center">
+                <a href="">
+                    <button class="btn-all_product">
+                        Xem tất cả sản phẩm <b>Trái cây Việt Nam</b>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </a>
+            </div>
+        </section>
+
+        <section class="container-fluid category-hot">
+            <div class="row cat-name">
+                <h2 class="title">Trái cây nhập khẩu</h2>
+            </div>
+            <div class="row hot-product-list">
+                <div class="col-2 card card-product">
+                    <a href="" class="product_a">
+                        <img src="./images/daoTien.jpg" class="card-img-top" alt="...">
+                        <div class="card-title-wrap">
+                            <h6 class="card-title">Đào tiên Ngộ Không</h6>
+                        </div>
+                    </a>
+                    <p class="card-text price-product">205,000đ</p>
+                    <button class="btn-add_cart">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="col-2 card card-product">
+                    <a href="" class="product_a">
+                        <img src="./images/leHan.jpg" class="card-img-top" alt="...">
+                        <div class="card-title-wrap">
+                            <h6 class="card-title">Lê Hàn K-pear size 7</h6>
+                        </div>
+                    </a>
+                    <p class="card-text price-product">165,000đ</p>
+                    <button class="btn-add_cart">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="col-2 card card-product">
+                    <a href="" class="product_a">
+                        <img src="./images/taoRockit.jpg" class="card-img-top" alt="...">
+                        <div class="card-title-wrap">
+                            <h6 class="card-title">Táo Rockit New Zealand Jumbo (Lốc 4 trái, 424GR)</h6>
+                        </div>
+                    </a>
+                    <p class="card-text price-product">135,000đ</p>
+                    <button class="btn-add_cart">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="col-2 card card-product">
+                    <a href="" class="product_a">
+                        <img src="./images/nhoRuou.jpg" class="card-img-top" alt="...">
+                        <div class="card-title-wrap">
+                            <h6 class="card-title">Nho rượu Kyoho Premium Hàn Quốc</h6>
+                        </div>
+                    </a>
+                    <p class="card-text price-product">395,000đ</p>
+                    <button class="btn-add_cart">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="col-2 card card-product">
+                    <a href="" class="product_a">
+                        <img src="./images/nhoRuou.jpg" class="card-img-top" alt="...">
+                        <div class="card-title-wrap">
+                            <h6 class="card-title">Nho rượu Kyoho Premium Hàn Quốc</h6>
+                        </div>
+                    </a>
+                    <p class="card-text price-product">395,000đ</p>
+                    <button class="btn-add_cart">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="col-2 card card-product">
+                    <a href="" class="product_a">
+                        <img src="./images/nhoRuou.jpg" class="card-img-top" alt="...">
+                        <div class="card-title-wrap">
+                            <h6 class="card-title">Nho rượu Kyoho Premium Hàn Quốc</h6>
+                        </div>
+                    </a>
+                    <p class="card-text price-product">395,000đ</p>
+                    <button class="btn-add_cart">Thêm vào giỏ hàng</button>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="">
+                    <button class="btn-all_product">
+                        Xem tất cả sản phẩm <b>Trái cây nhập khẩu</b>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </a>
+            </div>
+        </section>
+
+        <section class="container-fluid category-hot">
+            <div class="row cat-name">
+                <h2 class="title">Quà tặng trái cây</h2>
+            </div>
+            <div class="row hot-product-list">
+                <div class="col-2 card card-product">
+                    <a href="" class="product_a">
+                        <img src="./images/hq183.jpg" class="card-img-top" alt="...">
+                        <div class="card-title-wrap">
+                            <h6 class="card-title">Hộp quà trái cây HQ183</h6>
+                        </div>
+                    </a>
+                    <p class="card-text price-product">789,000đ</p>
+                    <button class="btn-add_cart">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="col-2 card card-product">
+                    <a href="" class="product_a">
+                        <img src="./images/ht003.jpg" class="card-img-top" alt="...">
+                        <div class="card-title-wrap">
+                            <h6 class="card-title">Hộp quà 2 tầng HT003</h6>
+                        </div>
+                    </a>
+                    <p class="card-text price-product">1,929,000đ</p>
+                    <button class="btn-add_cart">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="col-2 card card-product">
+                    <a href="" class="product_a">
+                        <img src="./images/nk001.jpg" class="card-img-top" alt="...">
+                        <div class="card-title-wrap">
+                            <h6 class="card-title">Hộp quà Tết Cherry đỏ New Zealand (thùng 2KG)</h6>
+                        </div>
+                    </a>
+                    <p class="card-text price-product">1,240,000đ</p>
+                    <button class="btn-add_cart">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="col-2 card card-product">
+                    <a href="" class="product_a">
+                        <img src="./images/g005.jpg" class="card-img-top" alt="...">
+                        <div class="card-title-wrap">
+                            <h6 class="card-title">Giỏ quà trái cây G005</h6>
+                        </div>
+                    </a>
+                    <p class="card-text price-product">1,845,000đ</p>
+                    <button class="btn-add_cart">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="col-2 card card-product">
+                    <a href="" class="product_a">
+                        <img src="./images/bo_dau_01.jpg" class="card-img-top" alt="...">
+                        <div class="card-title-wrap">
+                            <h6 class="card-title">Bó hoa dâu tây size M</h6>
+                        </div>
+                    </a>
+                    <p class="card-text price-product">909,000đ</p>
+                    <button class="btn-add_cart">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="col-2 card card-product">
+                    <a href="" class="product_a">
+                        <img src="./images/tm06.jpg" class="card-img-top" alt="...">
+                        <div class="card-title-wrap">
+                            <h6 class="card-title">Túi quà nhỏ TM06</h6>
+                        </div>
+                    </a>
+                    <p class="card-text price-product">209,000đ</p>
+                    <button class="btn-add_cart">Thêm vào giỏ hàng</button>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="">
+                    <button class="btn-all_product">
+                        Xem tất cả sản phẩm <b>Quà tặng trái cây</b>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </a>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p class="m-0 text-center">
+            <span class="me-3">Copy &copy 2024 Morning Fruit - Trái Cây Chất Lượng Cao.</span>
+            <a href="" class="sn-icon"><i class="mx-2 fa-brands fa-facebook-f"></i></a>
+            <a href="" class="sn-icon"><i class="mx-2 fa-brands fa-instagram"></i></a>
+            <a href="" class="sn-icon"><i class="mx-2 fa-brands fa-tiktok"></i></a>
+        </p>
+    </footer>
+
+    <div class="backtop">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            var $backToTop = $(".backtop");
+            $backToTop.hide();
+
+            $(window).on('scroll', function () {
+                if ($(this).scrollTop() > 200) {
+                    $backToTop.fadeIn();
+                } else {
+                    $backToTop.fadeOut();
+                }
+            });
+
+            $backToTop.on('click', function (e) {
+                $("html, body").animate({ scrollTop: 0 }, 500);
+            });
+        })
+    </script>
+</body>
+
+</html>
