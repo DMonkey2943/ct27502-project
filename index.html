@@ -22,38 +22,43 @@
 
 <body>
     <header>
-        <div class="topbar d-flex" style="background-color: #f38258;">
-            <p>Hotline: 0123456789</p>
-            <div class=""></div>
-            <a href="">Giỏ hàng</a>
-            <!-- <a href="">
-                Tài khoản
-                <ul>
-                    <li>
-                        <a href="">Đăng ký</a>
-                    </li>
-                    <li>
-                        <a href="">Đăng nhập</a>
-                    </li>
-                </ul>
-            </a> -->
-
-            <div class="dropdown">
-                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Tài khoản
+        <div class="topbar d-flex justify-content-between  fs-5 text" style="background-color: #f38258;">
+            <p class="mx-4 mb-0 my-2">Hotline: 0123456789</p>
+            <div class="d-flex mx-4 my-2 wrap_cart-acc">
+                <a href="" class="cart-a mx-4">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Giỏ hàng
                 </a>
+                <!-- <a href="">
+                    Tài khoản
+                    <ul>
+                        <li>
+                            <a href="">Đăng ký</a>
+                        </li>
+                        <li>
+                            <a href="">Đăng nhập</a>
+                        </li>
+                    </ul>
+                </a> -->
 
-                <!-- <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Đăng ký</a></li>
-                    <li><a class="dropdown-item" href="#">Đăng nhập</a></li>
-                </ul> -->
-                <!-- Da dang nhap tai khoan -->
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Tài khoản của tôi</a></li>
-                    <li><a class="dropdown-item" href="#">Đăng xuất</a></li>
-                </ul>
+                <div class="dropdown mx-4 fs-5 text">
+                    <a class="btn dropdown-toggle acc-a" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fa-solid fa-user"></i>
+                        Tài khoản
+                    </a>
 
+                    <!-- <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Đăng ký</a></li>
+                        <li><a class="dropdown-item" href="#">Đăng nhập</a></li>
+                    </ul> -->
+                    <!-- Da dang nhap tai khoan -->
+                    <ul class="dropdown-menu fs-5 text">
+                        <li><a class="dropdown-item" href="#">Tài khoản của tôi</a></li>
+                        <li><a class="dropdown-item" href="#">Đăng xuất</a></li>
+                    </ul>
+
+                </div>
             </div>
         </div>
 
@@ -109,7 +114,7 @@
                                 aria-expanded="false">
                                 SẢN PHẨM
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu fs-5 text">
                                 <li><a class="dropdown-item" href="#">Trái cây Việt Nam</a></li>
                                 <li><a class="dropdown-item" href="#">Trái cây nhập khẩu</a></li>
                                 <li><a class="dropdown-item" href="#">Quà tặng trái cây</a></li>
@@ -120,9 +125,9 @@
                             <a class="nav-link active" href="#">LIÊN HỆ</a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
+                    <form method="GET" class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit"><i
+                        <button class="btn px-0" type="submit"><i
                                 class="icon_search fa-solid fa-magnifying-glass"></i></button>
                     </form>
                 </div>
@@ -164,7 +169,7 @@
     </div>
 
     <div class="main-content">
-        <div class="container my-4">    
+        <div class="container my-4">
             <section class="container-fluid category-hot">
                 <div class="row cat-name">
                     <h2 class="title">Trái cây Việt Nam</h2>
@@ -230,7 +235,7 @@
                         <p class="card-text price-product">155,000đ</p>
                         <button class="btn-add_cart">Thêm vào giỏ hàng</button>
                     </div>
-    
+
                 </div>
                 <div class="text-center">
                     <a href="">
@@ -241,7 +246,7 @@
                     </a>
                 </div>
             </section>
-    
+
             <section class="container-fluid category-hot">
                 <div class="row cat-name">
                     <h2 class="title">Trái cây nhập khẩu</h2>
@@ -317,7 +322,7 @@
                     </a>
                 </div>
             </section>
-    
+
             <section class="container-fluid category-hot">
                 <div class="row cat-name">
                     <h2 class="title">Quà tặng trái cây</h2>
@@ -393,7 +398,7 @@
                     </a>
                 </div>
             </section>
-    
+
         </div>
     </div>
 
