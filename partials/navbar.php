@@ -1,7 +1,7 @@
 <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid header_wrap">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="/">
                     <img src="./images/logo.png" class="" alt="" height="60px">
                 </a>
 
@@ -15,10 +15,10 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item mx-4">
-                            <a class="nav-link active" aria-current="page" href="#">TRANG CHỦ</a>
+                            <a class="nav-link active" aria-current="page" href="/">TRANG CHỦ</a>
                         </li>
                         <li class="nav-item mx-4 dropdown">
-                            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            <a class="nav-link active dropdown-toggle" href="product.php" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 SẢN PHẨM
                             </a>
@@ -37,7 +37,7 @@
                                 TÀI KHOẢN
                             </a>
                             <ul class="dropdown-menu fs-5 text">
-                                <li><a class="dropdown-item" href="#">Đăng nhập</a></li>
+                                <li><a class="dropdown-item" href="login.php">Đăng nhập</a></li>
                                 <li><a class="dropdown-item" href="#">Đăng ký</a></li>
                                 <!-- <li><a class="dropdown-item" href="#">Tài khoản của tôi</a></li>
                                 <li><a class="dropdown-item" href="#">Đăng xuất</a></li> -->

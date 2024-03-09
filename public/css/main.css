@@ -1,3 +1,6 @@
+.container {
+    font-size: 1.4rem;
+}
 .topbar {
     background: #f38258;
 }
@@ -337,6 +340,7 @@ footer {
     bottom: 4rem;
     right: 1.2rem;
     text-decoration: none;
+    z-index: 2;
 }
 .backtop:hover {
     cursor: pointer;
@@ -351,3 +355,15 @@ footer {
 .story_brand {
     text-align: justify;
 }
+
+/* Page PRODUCT */
+.category {
+    list-style: none;
+}
+.category_link {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+
+
