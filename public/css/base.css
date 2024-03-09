@@ -23,8 +23,7 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: var(--white-color);
     box-sizing: border-box;
-    position: relative;
-    min-height: 100%;
+   
 }
 
 
