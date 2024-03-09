@@ -23,9 +23,9 @@
                                 SẢN PHẨM
                             </a>
                             <ul class="dropdown-menu fs-5 text ">
-                                <li><a class="dropdown-item" href="#">Trái cây Việt Nam</a></li>
-                                <li><a class="dropdown-item" href="#">Trái cây nhập khẩu</a></li>
-                                <li><a class="dropdown-item" href="#">Quà tặng trái cây</a></li>
+                                <li><a class="dropdown-item" href="product.php">Trái cây Việt Nam</a></li>
+                                <li><a class="dropdown-item" href="product.php">Trái cây nhập khẩu</a></li>
+                                <li><a class="dropdown-item" href="product.php">Quà tặng trái cây</a></li>
                             </ul>
                         </li>
                         <li class="nav-item mx-4">

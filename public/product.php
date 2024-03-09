@@ -7,7 +7,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-2">
+            <div class="col-lg-2 col-md-4 my-3 sidebar_category">
                 <h3>Danh mục sản phẩm</h3>
                 <ul class="category">
                     <li class="category_item">
@@ -24,10 +24,10 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-10">
+            <div class="col-lg-10 col-md-8">
                 <h4 class="title">Tên danh mục</h4>
                 <div class="row hot-product-list">
-                    <div class="col-lg-3 col-4 card card-product">
+                    <div class="col-lg-3 col-sm-4 col-6 card card-product">
                         <a href="" class="product_a">
                             <img src="./images/nhanLongHungYen.jpg" class="card-img-top" alt="...">
                             <div class="card-title-wrap">
@@ -37,7 +37,7 @@
                         <p class="card-text price-product">155,000đ</p>
                         <button class="btn-add_cart">Thêm vào giỏ hàng</button>
                     </div>
-                    <div class="col-lg-3 col-4 card card-product">
+                    <div class="col-lg-3 col-sm-4 col-6 card card-product">
                         <a href="" class="product_a">
                             <img src="./images/nhanLongHungYen.jpg" class="card-img-top" alt="...">
                             <div class="card-title-wrap">
@@ -47,7 +47,7 @@
                         <p class="card-text price-product">155,000đ</p>
                         <button class="btn-add_cart">Thêm vào giỏ hàng</button>
                     </div>
-                    <div class="col-lg-3 col-4 card card-product">
+                    <div class="col-lg-3 col-sm-4 col-6 card card-product">
                         <a href="" class="product_a">
                             <img src="./images/nhanLongHungYen.jpg" class="card-img-top" alt="...">
                             <div class="card-title-wrap">
@@ -57,7 +57,7 @@
                         <p class="card-text price-product">155,000đ</p>
                         <button class="btn-add_cart">Thêm vào giỏ hàng</button>
                     </div>
-                    <div class="col-lg-3 col-4 card card-product">
+                    <div class="col-lg-3 col-sm-4 col-6 card card-product">
                         <a href="" class="product_a">
                             <img src="./images/manAnPhuoc.jpg" class="card-img-top" alt="...">
                             <div class="card-title-wrap">
@@ -67,7 +67,7 @@
                         <p class="card-text price-product">75,000đ</p>
                         <button class="btn-add_cart">Thêm vào giỏ hàng</button>
                     </div>
-                    <div class="col-lg-3 col-4 card card-product">
+                    <div class="col-lg-3 col-sm-4 col-6 card card-product">
                         <a href="" class="product_a">
                             <img src="./images/sauRieng.jpg" class="card-img-top" alt="...">
                             <div class="card-title-wrap">
@@ -77,7 +77,7 @@
                         <p class="card-text price-product">580,000đ</p>
                         <button class="btn-add_cart">Thêm vào giỏ hàng</button>
                     </div>
-                    <div class="col-lg-3 col-4 card card-product">
+                    <div class="col-lg-3 col-sm-4 col-6 card card-product">
                         <a href="" class="product_a">
                             <img src="./images/camSanh.jpg" class="card-img-top" alt="...">
                             <div class="card-title-wrap">
@@ -87,7 +87,7 @@
                         <p class="card-text price-product">155,000đ</p>
                         <button class="btn-add_cart">Thêm vào giỏ hàng</button>
                     </div>
-                    <div class="col-lg-3 col-4 card card-product">
+                    <div class="col-lg-3 col-sm-4 col-6 card card-product">
                         <a href="" class="product_a">
                             <img src="./images/daoTien.jpg" class="card-img-top" alt="...">
                             <div class="card-title-wrap">
@@ -97,7 +97,7 @@
                         <p class="card-text price-product">205,000đ</p>
                         <button class="btn-add_cart">Thêm vào giỏ hàng</button>
                     </div>
-                    <div class="col-lg-3 col-4 card card-product">
+                    <div class="col-lg-3 col-sm-4 col-6 card card-product">
                         <a href="" class="product_a">
                             <img src="./images/leHan.jpg" class="card-img-top" alt="...">
                             <div class="card-title-wrap">
@@ -107,7 +107,7 @@
                         <p class="card-text price-product">165,000đ</p>
                         <button class="btn-add_cart">Thêm vào giỏ hàng</button>
                     </div>
-                    <div class="col-lg-3 col-4 card card-product">
+                    <div class="col-lg-3 col-sm-4 col-6 card card-product">
                         <a href="" class="product_a">
                             <img src="./images/taoRockit.jpg" class="card-img-top" alt="...">
                             <div class="card-title-wrap">
@@ -117,7 +117,7 @@
                         <p class="card-text price-product">135,000đ</p>
                         <button class="btn-add_cart">Thêm vào giỏ hàng</button>
                     </div>
-                    <div class="col-lg-3 col-4 card card-product">
+                    <div class="col-lg-3 col-sm-4 col-6 card card-product">
                         <a href="" class="product_a">
                             <img src="./images/nhoRuou.jpg" class="card-img-top" alt="...">
                             <div class="card-title-wrap">
@@ -127,7 +127,7 @@
                         <p class="card-text price-product">395,000đ</p>
                         <button class="btn-add_cart">Thêm vào giỏ hàng</button>
                     </div>
-                    <div class="col-lg-3 col-4 card card-product">
+                    <div class="col-lg-3 col-sm-4 col-6 card card-product">
                         <a href="" class="product_a">
                             <img src="./images/nhoRuou.jpg" class="card-img-top" alt="...">
                             <div class="card-title-wrap">
@@ -137,7 +137,7 @@
                         <p class="card-text price-product">395,000đ</p>
                         <button class="btn-add_cart">Thêm vào giỏ hàng</button>
                     </div>
-                    <div class="col-lg-3 col-4 card card-product">
+                    <div class="col-lg-3 col-sm-4 col-6 card card-product">
                         <a href="" class="product_a">
                             <img src="./images/nhoRuou.jpg" class="card-img-top" alt="...">
                             <div class="card-title-wrap">
