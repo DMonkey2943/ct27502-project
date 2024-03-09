@@ -389,7 +389,7 @@ a.page-link {
 }
 
 
-/* Login*/
+/* Login-register*/
 
 .log-form-group {
     margin: 30px 0;
@@ -403,4 +403,35 @@ a.page-link {
 .log-btn{
     font-size: 1.8rem;
     margin: 0 60px;
+}
+/* Page DETAIL PRODUCT */
+.img_product {
+    border-radius: 12px;
+}
+.title_product {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+.price_product {
+    font-size: 2rem;
+    font-weight: 700;
+    color: red;
+}
+.add_product {
+    background: white;
+    color: var(--primary-color);
+    font-weight: 600;
+    border: solid 1px var(--primary-color);
+    border-radius: 8px;
+    padding: 4px 32px;
+    margin-left: 8px;
+}
+.add_product:hover {
+    background: var(--primary-color);
+    color: var(--white-color);
+    transition: all 250ms;
+}
+.info_product {
+    text-align: justify;
 }
