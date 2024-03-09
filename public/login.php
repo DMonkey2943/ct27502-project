@@ -3,7 +3,15 @@
     
     <?php include_once __DIR__ .'/../partials/navbar.php'?>
 
+
     <div class="container">
+
+        <div class="row">
+            <div class="col-md-6 offset-md-3 text-center">
+                <p class="animate__animated animate__fadeInLeft" >Đăng nhập</p>
+            </div>
+        </div>
+
         <div class="row">
             <div class="col-12">
                 <form action="login.php" method="post" class="col-md-6 offset-md-3">
