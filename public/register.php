@@ -8,13 +8,18 @@
 
         <div class="row">
             <div class="col-md-6 offset-md-3 text-center">
-                <h1 class="animate__animated animate__fadeInLeft mt-5 " >ĐĂNG NHẬP</h1>
+                <h1 class="animate__animated animate__fadeInLeft mt-5 " >ĐĂNG KÝ</h1>
             </div>
         </div>
 
         <div class="row">
             <div class="col-12">
                 <form action="login.php" method="post" class="col-md-6 offset-md-3">
+
+                    <div class="form-group log-form-group">
+                        <label for="name">Họ Tên: </label>
+                        <input type="name" name="email" class="form-control mt-3 log-form-group-input" maxlen="255" id="name" placeholder="Nhập họ và tên" value="" />
+                    </div>
 
                      <div class="form-group log-form-group">
                         <label for="email">Email: </label>
@@ -26,8 +31,13 @@
                         <input type="password" name="psw" class="form-control mt-3 log-form-group-input"  id="psw" placeholder="Nhập mật khẩu" value="" />
                     </div>
 
+                    <div class="form-group log-form-group">
+                        <label for="psw2">Nhập lại mật khẩu: </label>
+                        <input type="psw2" name="psw2" class="form-control mt-3 log-form-group-input" maxlen="255" id="psw2" placeholder="Nhập email" value="" />
+                    </div>
+
                     <div class="d-grid">
-                        <button type="submit" name="submit" class="btn btn-primary btn-block log-btn">Đăng nhập</button>
+                        <button type="submit" name="submit" class="btn btn-primary btn-block log-btn">Đăng ký</button>
                     </div>
                    
                 </form>
