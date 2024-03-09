@@ -295,9 +295,11 @@ footer {
     background-color: var(--primary-color);
     color: var(--white-color);
     margin: 0;
-    /* height: 50px; */
     font-size: 1.4rem;
     padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .sn-icon {
