@@ -112,6 +112,10 @@ button {
     font-size: 2rem;
 }
 
+.search_input {
+    min-width: 220px;
+}
+
 .header_icon {
     font-size: 2rem;
 }
@@ -156,6 +160,15 @@ button {
     text-decoration: none;
     padding: 12px 20px;
     text-transform: uppercase;
+}
+
+.navbar-nav .nav-link.active{
+    color: var(--white-color);
+}
+
+.dropdown-item {
+    font-weight: 500;
+    font-size: 14px;
 }
 
 
