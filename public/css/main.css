@@ -394,10 +394,13 @@ a.page-link {
 .log-form-group {
     margin: 30px 0;
 }
+.log-form-group label{
+    font-size: 1.5rem;
+}
 
 .log-form-group-input{
     height: 40px;
-    font-size: 1em;
+    font-size: 1.5rem;
 }
 
 .log-btn{

@@ -6,19 +6,18 @@
 
     <div class="container">
 
-        <div class="row">
-            <div class="col-md-6 offset-md-3 text-center">
-                <h1 class="animate__animated animate__fadeInLeft mt-5 " >ĐĂNG KÝ</h1>
-            </div>
-        </div>
+        <?php
+            $subtitle = 'ĐĂNG KÝ';
+            include_once __DIR__ . '/../partials/heading.php';
+        ?>
 
         <div class="row">
             <div class="col-12">
-                <form action="login.php" method="post" class="col-md-6 offset-md-3">
+                <form action="register.php" method="post" class="col-md-6 offset-md-3">
 
                     <div class="form-group log-form-group">
                         <label for="name">Họ Tên: </label>
-                        <input type="name" name="email" class="form-control mt-3 log-form-group-input" maxlen="255" id="name" placeholder="Nhập họ và tên" value="" />
+                        <input type="name" name="name" class="form-control mt-3 log-form-group-input" maxlen="255" id="name" placeholder="Nhập họ và tên" value="" />
                     </div>
 
                      <div class="form-group log-form-group">
