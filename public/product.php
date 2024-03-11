@@ -6,6 +6,10 @@
 
 
     <div class="container">
+        <?php
+        $subtitle = 'TẤT CẢ SẢN PHẨM';
+        include_once __DIR__ . '/../partials/heading.php';
+        ?>
         <div class="row">
             <div class="col-lg-2 col-md-4 my-3 sidebar_category">
                 <h3>Danh mục sản phẩm</h3>
@@ -25,7 +29,7 @@
                 </ul>
             </div>
             <div class="col-lg-10 col-md-8">
-                <h4 class="title">Tên danh mục</h4>
+                <!-- <h4 class="title">Tên danh mục</h4> -->
                 <div class="row hot-product-list">
                     <div class="col-lg-3 col-sm-4 col-6 card card-product">
                         <a href="" class="product_a">
