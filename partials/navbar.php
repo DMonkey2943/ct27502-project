@@ -29,7 +29,7 @@
                             </ul>
                         </li>
                         <li class="nav-item mx-4">
-                            <a class="nav-link active" href="#">GIỎ HÀNG</a>
+                            <a class="nav-link active" href="cart.php">GIỎ HÀNG</a>
                         </li>
                         <li class="nav-item mx-4 dropdown">
                             <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -38,7 +38,7 @@
                             </a>
                             <ul class="dropdown-menu fs-5 text">
                                 <li><a class="dropdown-item" href="login.php">Đăng nhập</a></li>
-                                <li><a class="dropdown-item" href="#">Đăng ký</a></li>
+                                <li><a class="dropdown-item" href="register.php">Đăng ký</a></li>
                                 <!-- <li><a class="dropdown-item" href="#">Tài khoản của tôi</a></li>
                                 <li><a class="dropdown-item" href="#">Đăng xuất</a></li> -->
                             </ul>
