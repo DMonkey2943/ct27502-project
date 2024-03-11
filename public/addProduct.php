@@ -1,14 +1,14 @@
-<?php include_once __DIR__ .'/../partials/header.php'?>
+<?php include_once __DIR__ .'/../src/partials/header.php'?>
 <body>
     
-    <?php include_once __DIR__ .'/../partials/navbar.php'?>
+    <?php include_once __DIR__ .'/../src/partials/navbar.php'?>
 
 
     <div class="container">
 
         <?php
             $subtitle = 'Thêm sản phẩm';
-            include_once __DIR__ . '/../partials/heading.php';
+            include_once __DIR__ . '/../src/partials/heading.php';
         ?>
 
         <div class="row">
@@ -62,7 +62,7 @@
         </div>
     </div>
 
-    <?php include_once __DIR__ .'/../partials/footer.php'?>
+    <?php include_once __DIR__ .'/../src/partials/footer.php'?>
     
     <script>
       

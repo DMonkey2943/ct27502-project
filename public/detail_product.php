@@ -1,8 +1,8 @@
-<?php include_once __DIR__ . '/../partials/header.php' ?>
+<?php include_once __DIR__ . '/../src/partials/header.php' ?>
 
 <body>
 
-    <?php include_once __DIR__ . '/../partials/navbar.php' ?>
+    <?php include_once __DIR__ . '/../src/partials/navbar.php' ?>
 
 
     <div class="container">
@@ -28,8 +28,21 @@
 
     </div>
 
-    <?php include_once __DIR__ . '/../partials/footer.php' ?>
+    <?php include_once __DIR__ . '/../src/partials/footer.php' ?>
 
+    <script>
+      
+      var elementHTML = document.documentElement; 
+      var elementFooter = document.getElementsByTagName('footer')[0];
+
+      elementHTML.style.position = "relative";
+      elementHTML.style.minHeight="100%";  
+      elementFooter.style.position="absolute";
+      elementFooter.style.bottom ="0";
+      elementFooter.style.width= "100%";
+
+  </script>
+  
 </body>
 
 </html>
