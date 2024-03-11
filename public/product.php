@@ -8,7 +8,7 @@
     <div class="container">
         <?php
         $subtitle = 'TẤT CẢ SẢN PHẨM';
-        include_once __DIR__ . '/../partials/heading.php';
+        include_once __DIR__ . '/../src/partials/heading.php';
         ?>
         <div class="row">
             <div class="col-lg-2 col-md-4 my-3 sidebar_category">
