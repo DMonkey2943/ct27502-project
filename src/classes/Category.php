@@ -53,6 +53,19 @@ class Category
         return $this;
     }
 
+    public function find(int $id): ?Category
+    {
+        $statement = $this->db->prepare('SELECT * FROM categories WHERE cat_id = :id');
+        $statement->execute(['id' => $id]);
+
+        if ($row = $statement->fetch()) {
+            $this->fillFromDB($row);
+            return $this;
+        }
+        return null;
+    }
+
+
     public function save(): bool
     {
         $result = false;
@@ -70,6 +83,12 @@ class Category
         }
 
         return $result;
+    }
+
+    public function update(array $data): bool
+    {
+        $this->fill($data);
+        return $this->save();
     }
 
     public function delete(): bool
