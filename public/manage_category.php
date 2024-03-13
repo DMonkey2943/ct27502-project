@@ -1,4 +1,14 @@
-<?php include_once __DIR__ . '/../src/partials/header.php' ?>
+<?php
+require_once __DIR__ . '/../src/bootstrap.php';
+
+use CT27502\Project\Category;
+
+$category = new Category($PDO);
+$categories = $category->all();
+$i = 0;
+
+include_once __DIR__ . '/../src/partials/header.php'
+?>
 
 <body>
     <?php include_once __DIR__ . '/../src/partials/navbar.php' ?>
@@ -42,14 +52,19 @@
                         <th>Tên danh mục</th>
                         <th>Quản lý</th>
                     </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Tivi</td>
-                        <td>
-                            <a href="?action=delete&id=">Xóa</a> ||
-                            <a href="?action=update&id=">Cập nhật</a>
-                        </td>
-                    </tr>
+                    <?php
+                    foreach ($categories as $category) :
+                        $i++;
+                    ?>
+                        <tr>
+                            <td><?= $i ?></td>
+                            <td><?= html_escape($category->cat_name) ?></td>
+                            <td>
+                                <a href="?action=delete&id=">Xóa</a> ||
+                                <a href="?action=update&id=">Cập nhật</a>
+                            </td>
+                        </tr>
+                    <?php endforeach ?>
                 </table>
             </div>
         </div>
