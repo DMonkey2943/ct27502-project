@@ -7,6 +7,13 @@ $category = new Category($PDO);
 $categories = $category->all();
 $i = 0;
 
+if($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if(isset($_POST['add_cat'])) {
+        $category->fill($_POST);
+        $category->save() && redirect('manage_category.php');
+    }
+}
+
 include_once __DIR__ . '/../src/partials/header.php'
 ?>
 
