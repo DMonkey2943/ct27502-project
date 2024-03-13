@@ -28,6 +28,10 @@
                     <div class="d-grid">
                         <button type="submit" name="submit" class="btn btn-primary btn-block log-btn">Đăng nhập</button>
                     </div>
+                    <br>
+                    <div>
+                        <p>Nếu chưa có tài khoản, hãy <a href="register.php">Đăng ký</a></p>
+                    </div>
                    
                 </form>
             </div>
