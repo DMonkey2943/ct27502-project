@@ -1,0 +1,41 @@
+:root {
+    --primary-color: #f36f40;
+    /* --primary-color_hover: rgb(159 200 228 / 70%); */
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    color: var(--black-color);
+    font-size: 62.5%; /*10px*/
+    line-height: 1.6rem; /*16px*/
+    /* line-height: 1.45;
+    font-size: 14px; */
+    /* font-family: "Quicksand", sans-serif; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--white-color);
+    box-sizing: border-box;
+   
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
